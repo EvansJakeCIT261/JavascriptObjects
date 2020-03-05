@@ -7,7 +7,12 @@
 <p id="demo"></p>
 
 <script>
-var vehicle = {make:"Honda", model:"Accord", year:2007, color:"Red", engine:"V8"};
+var vehicle = new Object();
+  make:"Honda"
+  model:"Accord"
+  year:2007
+  color:"Red"
+  engine:"V8";
 
 document.getElementById("demo").innerHTML =
 "Manufacturer: " + vehicle.make + "<br>Model: " + vehicle.model + "<br>Year: " + vehicle.year + "<br>Engine: " + vehicle.engine + "<br>Color: " + vehicle.color;
